@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/counter/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F5A623",
+    "navigationBarTitleText": "宜居美食",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "selectedColor": "#F5A623",
+    "list": [
+      {
+        "iconPath": "static/images/tab_home.png",
+        "pagePath": "pages/index/main",
+        "text": "首页",
+        "selectedIconPath": "static/images/tab_home_pre.png"
+      },
+      {
+        "iconPath": "static/images/tab_collect.png",
+        "pagePath": "pages/counter/main",
+        "text": "收藏",
+        "selectedIconPath": "static/images/tab_collect_pre.png"
+      }
+    ]
+  }
+}
