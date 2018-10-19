@@ -12,6 +12,7 @@
   </block>
 </swiper>
     </div>
+    <a href="/pages/recipedetail/main">食谱详情</a>
   </div>
 </template>
 

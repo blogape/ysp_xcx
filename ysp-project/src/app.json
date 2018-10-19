@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/main",
     "pages/logs/main",
-    "pages/counter/main"
+    "pages/collection/main",
+    "pages/recipedetail/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -21,7 +22,7 @@
       },
       {
         "iconPath": "static/images/tab_collect.png",
-        "pagePath": "pages/counter/main",
+        "pagePath": "pages/collection/main",
         "text": "收藏",
         "selectedIconPath": "static/images/tab_collect_pre.png"
       }
