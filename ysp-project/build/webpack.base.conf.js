@@ -92,7 +92,14 @@ module.exports = {
           limit: 10000,
           name: utils.assetsPath('fonts/[name].[ext]')
         }
-      }
+      },
+      {
+
+        test: /\.less$/,
+
+        loader: "style-loader!css-loader!less-loader",
+
+        },
     ]
   },
   plugins: [
