@@ -3,7 +3,8 @@
     "pages/index/main",
     "pages/logs/main",
     "pages/collection/main",
-    "pages/recipedetail/main"
+    "pages/recipedetail/main",
+    "pages/themrecipe/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
